@@ -7,8 +7,10 @@ Console.WriteLine("S.O.L.I.D = > LISKOV");
 
 Console.WriteLine("-------------------------------------------");
 
-ColdCoffee coldCoffee = new ColdCoffee();
-Console.WriteLine(coldCoffee.MixColdOrIce());
+JuniorProgrammer junior  = new JuniorProgrammer("Junior Programmer");
+junior.ToDoTask();
 
-HotCoffee hotCoffee = new HotCoffee();
-hotCoffee.ServeCoffee();
+SeniorProgrammer senior = new SeniorProgrammer("Senior Programmer");
+senior.TaskCreate();
+senior.TaskAssign();
+senior.ToDoTask();

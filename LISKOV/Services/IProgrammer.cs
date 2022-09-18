@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LISKOV.Services
 {
-    internal interface IMakingHotCoffee
+    internal interface IProgrammer
     {
-        public void MixHotWater(); 
+        public void ToDoTask();
     }
 }

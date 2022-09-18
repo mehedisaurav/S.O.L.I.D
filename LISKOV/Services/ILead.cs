@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace LISKOV.Services
 {
-    internal interface IMakeHotCoffee : IMakingHotCoffee
+    internal interface ILead : IProgrammer
     {
-        public void AddCoffee();
-        public void AddSugar();
-
-        public void ServeCoffee();
+        public void TaskCreate();
+        public void TaskAssign();
     }
 }

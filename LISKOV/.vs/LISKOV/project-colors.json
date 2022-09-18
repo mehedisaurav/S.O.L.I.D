@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c4cc1f3d-d91f-4d7c-bdea-84a901134081": {
+      "ProjectGuid": "c4cc1f3d-d91f-4d7c-bdea-84a901134081",
+      "DisplayName": "LISKOV",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
